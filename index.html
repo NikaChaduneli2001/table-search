@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>exercise 1</title>
+</head>
+
+<body>
+    <div style="position: relative;">
+        <div id="buttons">
+            <div>
+                <input type="search" id="search" placeholder="...search">
+
+                <input type="button" id="button" value="add">
+            </div>
+
+        </div>
+
+        <div id="tables">
+            <table id="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Surname</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>nika</td>
+                        <td>chaduneli</td>
+                        <td>597057791</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="form-div">
+            <div>
+                <div>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+
+                <div>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                </div>
+
+                <div>
+                    <label for="Phone">Phone</label>
+                    <input type="number" id="number" name="number" placeholder="Your number..">
+                </div>
+
+                <input type="submit" id='save' value="save">
+                <input type="submit" id="disable" value="disable">
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="server.js"></script>
+
+</html>
